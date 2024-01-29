@@ -1,14 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Siddharth's Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    
-
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Siddharth Jain</div>
+        <div class="right">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Projects</a></li>
+            <li><a href="/">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="firstSection">
+        <div class="leftSection">
+          Hello, I'm <span class="name">Siddharth Jain</span>
+          <p class="intro">
+            A passionate student interested in web development. I love creating
+            visually appealing and interactive websites.
+          </p>
+          <div class="buttons">
+            <button class="btn">Download Resume</button>
+            <button class="btn">Visit Github</button>
+          </div>
+        </div>
+        <div class="rightSection">
+          <img src="./images/Developer.png" alt="Developer" />
+        </div>
+      </section>
+      <hr />
+      <section class="secondSection">
+        <h1>About Me</h1>
+        <h2>Why Choose Me?</h2>
+        <div class="aboutBox">
+          Hailing from Jaipur, Rajasthan, I am a devoted Full-Stack Web
+          Developer currently pursuing a Bachelor's degree in Computer Science
+          at Vellore Institute of Technology. Specializing in the MERN Stack, I
+          harbor a genuine passion for web development. Eager to broaden my
+          skill set, I am on an unending journey to contribute to innovative
+          projects and make a meaningful impact in the ever-evolving tech
+          landscape. Join me as I navigate the exciting intersections of code
+          and creativity, embracing continuous learning along the way. I'm
+          always seeking opportunities to create innovative digital experiences,
+          fueled by a commitment to excellence, with the aim to not only meet
+          but exceed expectations.
+        </div>
+      </section>
+    </main>
+    <hr />
+    <section class="fourthSection">
+      <h2 id="education">Education</h2>
+      <table class="custom-table" border="2">
+        <tr>
+          <th class="table-th">Qualification</th>
+          <th class="table-th">Year</th>
+          <th class="table-th">Grade</th>
+        </tr>
+        <tr>
+          <td class="table-td">
+            Vellore Institute of Technology, Vellore
+            <div>B.Tech in Computer Science and Engineering</div>
+          </td>
+          <td class="table-td">2022-2026</td>
+          <td class="table-td">9.37</td>
+        </tr>
+        <tr>
+          <td class="table-td">
+            Rahul MSS School, Jaipur
+            <div>XII(CBSE)</div>
+          </td>
+          <td class="table-td">2021</td>
+          <td class="table-td">93.8%</td>
+        </tr>
+        <tr>
+          <td class="table-td">
+            St. Wilfred's School, Jaipur
+            <div>X(CBSE)</div>
+          </td>
+          <td class="table-td">2019</td>
+          <td class="table-td">91.8%</td>
+        </tr>
+      </table>
+    </section>
+    <hr />
+    <section class="fifthSection">
+      <div class="skills">
+        <h1>Skills</h1>
+      </div>
+    </section>
+    <hr />
+    <section class="sixthSection">
+      <div class="projects">
+        <h1>Projects</h1>
+      </div>
+    </section>
+    <hr />
+    <section class="thirdSection">
+      <div class="contactForm">
+        <h1>Contact Me</h1>
+        <form>
+          <div class="formContent">
+            <label for="clientName" class="form-label">Name</label>
+            <input type="name" class="form-control" id="clientName" />
+          </div>
+          <div class="formContent">
+            <label for="clientEmail" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="clientEmail" />
+          </div>
+          <div class="formContent">
+            <label for="clientPhone" class="form-label">Phone</label>
+            <input type="phone" class="form-control" id="clientPhone" />
+          </div>
+          <div class="formContent">
+            <label for="clientMessage" class="form-label">Message</label>
+            <input type="phone" class="form-control" id="clientMessage" />
+          </div>
+          <div class="formContent form-check">
+            <input type="checkbox" class="form-check-input" id="isclient" />
+            <label class="form-check-label" for="isclient">Check me out</label>
+          </div>
+          <button type="submit" class="btn">Submit</button>
+        </form>
+      </div>
+    </section>
+    <hr />
+    <footer></footer>
     <script src="index.js"></script>
-</body>
+  </body>
 </html>

@@ -1,4 +1,189 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: rgb(0, 0, 33);
+  color: white;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+  background-color: rgb(18, 18, 62);
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 0 23px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+}
+
+nav ul li a:hover {
+  color: yellow;
+}
+
+.left {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.firstSection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 80px 0;
+}
+
+.leftSection {
+  width: 30%;
+  font-size: 2.4rem;
+}
+
+.leftSection .intro {
+  font-size: 1.1rem;
+}
+.leftSection .buttons {
+  margin: 10px;
+}
+
+.btn {
+  padding: 5px 12px;
+  background-color: #1e2167;
+  color: white;
+  border: 2px solid white;
+  border-radius: 12px;
+  font-size: 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn:hover{
+  color: #1e2167;
+  background-color: white;
+}
+
+.rightSection img {
+  width: 80%;
+}
+
+.name {
+  color: rgb(170, 107, 228);
+}
+
+.secondSection {
+  max-width: 80vw;
+  margin: auto;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.secondSection h1{
+  text-align: center;
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.secondSection h2{
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+.aboutBox{
+  margin: 50px 0;
+  width: 65%;
+  padding: 40px 30px;
+  font-size: 1.3rem;
+  text-align: center;
+  background-color: rgb(1, 1, 58) ;
+  box-shadow: 0 0 30px rgb(1, 1, 58);
+}
+
+hr {
+  border: 1.2px solid #9c97f1;
+  margin: 60px 84px;
+}
+
+.text-gray {
+  color: gray;
+}
+
+.contactForm {
+  max-width: 80vw;
+  height: 60vh;
+  margin: auto;
+}
+
+.formContent {
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0;
+}
+
+.form-control {
+  width: 30vw;
+}
+
+.form-label {
+  margin-bottom: 5px;
+}
+
+.form-check-input {
+  margin-right: 7px;
+}
+.form-check {
+  flex-direction: row;
+}
+
+.fourthSection{
+  max-width: 80vw;
+  margin: auto;
+}
+
+.custom-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.table-th, .table-td {
+  border: 2px solid #333;
+  padding: 10px;
+  text-align: left;
+}
+
+.table-th {
+  background-color: rgb(1, 1, 58);
+  font-size: 1.2rem;
+
+}
+
+td div{
+  font-size: 0.7rem;
+}
+
+.fifthSection .skills{
+  max-width: 80vw;
+  margin: auto;
+}
+.sixthSection .projects{
+  max-width: 80vw;
+  margin: auto;
 }
