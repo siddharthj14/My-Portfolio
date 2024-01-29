@@ -13,21 +13,21 @@
     />
   </head>
   <body>
-    <header>
+    <header id="Home">
       <nav>
         <div class="left">Siddharth Jain</div>
         <div class="right">
           <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/">About</a></li>
-            <li><a href="/">Projects</a></li>
-            <li><a href="/">Contact Me</a></li>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Projects">Projects</a></li>
+            <li><a href="#contactMe">Contact Me</a></li>
           </ul>
         </div>
       </nav>
     </header>
     <main>
-      <section class="firstSection">
+      <section class="homeSection">
         <div class="leftSection">
           Hello, I'm <span class="name">Siddharth Jain</span>
           <p class="intro">
@@ -35,8 +35,8 @@
             visually appealing and interactive websites.
           </p>
           <div class="buttons">
-            <button class="btn">Download Resume</button>
-            <button class="btn">Visit Github</button>
+            <a href="http://" target="_blank"><button class="btn">Download Resume</button></a>
+            <a href="#contactMe"><button class="btn">Hire Me!</button></a>
           </div>
         </div>
         <div class="rightSection">
@@ -44,18 +44,18 @@
         </div>
       </section>
       <hr />
-      <section class="secondSection">
+      <section class="aboutSection" id="About">
         <h1>About Me</h1>
         <h2>Why Choose Me?</h2>
         <div class="aboutBox">
           Hailing from Jaipur, Rajasthan, I am a devoted Full-Stack Web
           Developer currently pursuing a Bachelor's degree in Computer Science
-          at Vellore Institute of Technology. Specializing in the MERN Stack, I
-          harbor a genuine passion for web development. Eager to broaden my
-          skill set, I am on an unending journey to contribute to innovative
-          projects and make a meaningful impact in the ever-evolving tech
-          landscape. Join me as I navigate the exciting intersections of code
-          and creativity, embracing continuous learning along the way. I'm
+          and Engineering at Vellore Institute of Technology. Specializing in
+          the MERN Stack, I harbor a genuine passion for web development. Eager
+          to broaden my skill set, I am on an unending journey to contribute to
+          innovative projects and make a meaningful impact in the ever-evolving
+          tech landscape. Join me as I navigate the exciting intersections of
+          code and creativity, embracing continuous learning along the way. I'm
           always seeking opportunities to create innovative digital experiences,
           fueled by a commitment to excellence, with the aim to not only meet
           but exceed expectations.
@@ -63,8 +63,8 @@
       </section>
     </main>
     <hr />
-    <section class="fourthSection">
-      <h2 id="education">Education</h2>
+    <section class="educationSection">
+      <h1 id="education">Education</h1>
       <table class="custom-table" border="2">
         <tr>
           <th class="table-th">Qualification</th>
@@ -98,37 +98,151 @@
       </table>
     </section>
     <hr />
-    <section class="fifthSection">
+    <section class="skillsSection">
       <div class="skills">
         <h1>Skills</h1>
+        <div class="skill-category">
+          <h2>Programming Languages</h2>
+          <ul>
+            <li>Python</li>
+            <li>C/C++</li>
+            <li>Java</li>
+          </ul>
+        </div>
+        <div class="skill-category">
+          <h2>Front-end Development</h2>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Bootstrap</li>
+            <li>JavaScript</li>
+            <li>jQuery</li>
+          </ul>
+        </div>
+        <div class="skill-category">
+          <h2>Back-end Development</h2>
+          <ul>
+            <li>Node.js</li>
+            <li>Express.js</li>
+            <li>EJS</li>
+            <li>API</li>
+          </ul>
+        </div>
+        <div class="skill-category">
+          <h2>Tools</h2>
+          <ul>
+            <li>Git</li>
+            <li>Windows</li>
+          </ul>
+        </div>
       </div>
     </section>
     <hr />
-    <section class="sixthSection">
+    <section class="projectSection" id="Projects">
       <div class="projects">
         <h1>Projects</h1>
+        <div class="project">
+          <h2>Memory Card Game</h2>
+          <p>A fun memory card game built with HTML, CSS, and JavaScript.</p>
+          <div class="project-links">
+            <a href="https://siddharthj14.github.io/Flip-Card-Game/" target="_blank"
+              >Website</a
+            >
+            <a
+              href="https://github.com/siddharthj14/Flip-Card-Game"
+              target="_blank"
+              >GitHub</a
+            >
+          </div>
+        </div>
+
+        <div class="project">
+          <h2>Tic Tac Toe Game</h2>
+          <p>
+            A classic Tic Tac Toe game implemented using HTML, CSS, and
+            JavaScript.
+          </p>
+          <div class="project-links">
+            <a href="https://siddharthj14.github.io/Tic-Tac-Toe/" target="_blank"
+              >Website</a
+            >
+            <a
+              href="https://github.com/siddharthj14/Tic-Tac-Toe"
+              target="_blank"
+              >GitHub</a
+            >
+          </div>
+        </div>
+
+        <div class="project">
+          <h2>Stone Paper Scissor Game</h2>
+          <p>
+            An interactive Stone Paper Scissor game implemented using HTML, CSS,
+            and JavaScript.
+          </p>
+          <div class="project-links">
+            <a href="https://siddharthj14.github.io/Stone-Paper-Scissors-Game/" target="_blank"
+              >Website</a
+            >
+            <a
+              href="https://github.com/siddharthj14/Stone-Paper-Scissors-Game"
+              target="_blank"
+              >GitHub</a
+            >
+          </div>
+        </div>
+
+        <div class="project">
+          <h2>The Simon Game</h2>
+          <p>
+            A classic Simon game with a modern twist, built with HTML, CSS,
+            JavaScript, and jQuery.
+          </p>
+          <div class="project-links">
+            <a href="https://siddharthj14.github.io/The-Simon-Game/" target="_blank">Website</a>
+            <a
+              href="https://github.com/siddharthj14/The-Simon-Game"
+              target="_blank"
+              >GitHub</a
+            >
+          </div>
+        </div>
+
+        <div class="project">
+          <h2>TinDog - Tinder for Dogs</h2>
+          <p>
+            A playful website for connecting dogs and their owners, created
+            using HTML, CSS, Bootstrap, and JavaScript.
+          </p>
+          <div class="project-links">
+            <a href="https://siddharthj14.github.io/TinDog/" target="_blank">Website</a>
+            <a href="https://github.com/siddharthj14/TinDog" target="_blank"
+              >GitHub</a
+            >
+          </div>
+        </div>
       </div>
     </section>
     <hr />
-    <section class="thirdSection">
+    <section class="contactSection" id="contactMe">
       <div class="contactForm">
         <h1>Contact Me</h1>
         <form>
           <div class="formContent">
             <label for="clientName" class="form-label">Name</label>
-            <input type="name" class="form-control" id="clientName" />
+            <input type="text" class="form-control" id="clientName" placeholder="Enter your name" />
           </div>
           <div class="formContent">
             <label for="clientEmail" class="form-label">Email address</label>
-            <input type="email" class="form-control" id="clientEmail" />
+            <input type="email" class="form-control" id="clientEmail" placeholder="Enter your email address" />
           </div>
           <div class="formContent">
             <label for="clientPhone" class="form-label">Phone</label>
-            <input type="phone" class="form-control" id="clientPhone" />
+            <input type="tel" class="form-control" id="clientPhone" placeholder="Enter your phone number" />
           </div>
           <div class="formContent">
             <label for="clientMessage" class="form-label">Message</label>
-            <input type="phone" class="form-control" id="clientMessage" />
+            <textarea class="form-control" id="clientMessage" placeholder="Type your message"></textarea>
           </div>
           <div class="formContent form-check">
             <input type="checkbox" class="form-check-input" id="isclient" />
@@ -136,10 +250,38 @@
           </div>
           <button type="submit" class="btn">Submit</button>
         </form>
+        
       </div>
     </section>
     <hr />
-    <footer></footer>
-    <script src="index.js"></script>
+    <footer>
+      <div class="copyright">&#169; 2024 &nbsp;&nbsp; Siddharth Jain</div>
+      <div class="links">
+        <ul>
+          <li>
+            <a href="https://github.com/siddharthj14" target="_blank"
+              ><img src="./images/github.png" alt="Github"
+            /></a>
+          </li>
+          <li>
+            <a
+              href="http://www.linkedin.com/in/siddharth-jain14"
+              target="_blank"
+              ><img src="./images/linkedin.png" alt="Linkedin"
+            /></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/_sidx_._/" target="_blank"
+              ><img src="./images/Instagram.png" alt="Instagram"
+            /></a>
+          </li>
+          <li>
+            <a href="https://twitter.com/siddharth_1405" target="_blank"
+              ><img src="./images/Twitter.png" alt="Twitter"
+            /></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
   </body>
 </html>
