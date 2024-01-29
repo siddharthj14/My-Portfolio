@@ -91,22 +91,22 @@ nav ul li:hover {
 .name {
   color: #aa6be4;
 }
-
 .aboutSection {
   max-width: 80vw;
   margin: auto;
-  height: 80vh;
+  height: 140vh;
   display: flex;
   align-items: center;
   flex-direction: column;
 }
 
-.aboutSection h1{
+.aboutSection h1 {
   text-align: center;
   color: white;
   font-weight: bold;
   font-size: 3rem;
 }
+
 .aboutSection h2 {
   text-align: center;
   color: #9c97f1;
@@ -125,6 +125,13 @@ nav ul li:hover {
   transition: transform 0.3s;
 }
 
+.aboutBox img {
+  width: 100%;
+  margin-bottom: 20px;
+  height: 360px;
+  width: 360px;
+}
+
 .aboutBox:hover {
   transform: scale(1.05);
 }
@@ -140,7 +147,7 @@ hr {
   margin: auto;
 }
 
-.contactForm h1{
+.contactForm h1 {
   color: white;
   font-weight: bold;
   font-size: 3rem;
@@ -183,7 +190,7 @@ hr {
   max-width: 80vw;
   margin: auto;
 }
-.educationSection h1{
+.educationSection h1 {
   color: white;
   font-weight: bold;
   font-size: 3rem;
@@ -205,10 +212,9 @@ hr {
   background-color: #01013a;
   font-size: 1.2rem;
   color: #9c97f1;
-
 }
 
-.table-th:hover{
+.table-th:hover {
   background-color: #02024b;
 }
 
@@ -285,7 +291,6 @@ td div {
 .project:hover {
   background-color: #0b0b5b;
   transform: scale(1.01);
-  
 }
 
 .project h2 {
